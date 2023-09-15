@@ -1,0 +1,5 @@
+# Added by GoReleaser
+dist/
+
+# JetBrains
+.idea
