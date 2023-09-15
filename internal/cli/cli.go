@@ -44,7 +44,7 @@ func init() {
 
 	// StringSliceVarP is comma-delimited, whereas StringArrayVarP can have
 	// multiple occurrences of the same flag
-	generateTokenCmd.Flags().StringSliceVarP(&allowedRoles, "allowedRoles", "a", []string{}, "Allowed Hasura roles")
+	generateTokenCmd.Flags().StringSliceVarP(&allowedRoles, "allowedRoles", "a", []string{}, "Allowed Hasura roles (comma-delimited)")
 	generateTokenCmd.MarkFlagRequired("allowedRoles")
 
 	generateTokenCmd.Flags().StringVarP(&defaultRole, "defaultRole", "d", "", "Default Hasura role")

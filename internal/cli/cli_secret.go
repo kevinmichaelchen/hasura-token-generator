@@ -30,5 +30,6 @@ func fnGenerateAlphanumericSecret(cmd *cobra.Command, args []string) {
 		log.Err(err).Msg("Failed to generate admin secret")
 		return
 	}
-	fmt.Println("Admin secret:", s)
+
+	fmt.Println(s)
 }
