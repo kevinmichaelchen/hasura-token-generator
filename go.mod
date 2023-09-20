@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/charmbracelet/log v0.2.4
-	github.com/golang-jwt/jwt/v4 v4.4.3
+	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/rs/zerolog v1.30.0
 	github.com/spf13/cobra v1.6.1
 )
