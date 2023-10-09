@@ -3,7 +3,7 @@ module github.com/kevinmichaelchen/tokesura
 go 1.21
 
 require (
-	github.com/charmbracelet/log v0.2.4
+	github.com/charmbracelet/log v0.2.5
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/rs/zerolog v1.31.0
 	github.com/spf13/cobra v1.7.0
